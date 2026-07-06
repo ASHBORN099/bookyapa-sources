@@ -19,10 +19,11 @@
         "bookAuthor": "#profile_top a[href*='/u/']",
         "bookCover": "",
         "bookDescription": "#profile_top div.xcontrast_txt",
-        "chapterListItem": "",
+        "chapterListItem": "select#chap_select option",
         "chapterTitle": "",
         "chapterLink": "",
-        "chapterContent": "div#storytext"
+        "chapterContent": "div#storytext",
+        "chapterUrlPattern": "/s/{storyId}/{chapterNumber}/"
       }
     },
     {
@@ -38,7 +39,7 @@
         "searchResultLink": "h4.heading a",
         "searchResultCover": "",
         "searchResultAuthor": "h4.byline a",
-        "exploreUrlPattern": "/tags",
+        "exploreUrlPattern": "/works",
         "bookTitle": "h2.title",
         "bookAuthor": "h3.byline a",
         "bookCover": "",
