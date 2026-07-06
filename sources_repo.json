@@ -12,12 +12,12 @@
         "searchResultContainer": "div.z-list",
         "searchResultTitle": "a.stitle",
         "searchResultLink": "a.stitle",
-        "searchResultCover": "",
+        "searchResultCover": "img",
         "searchResultAuthor": "a[href^='/u/']",
         "exploreUrlPattern": "/book/Harry-Potter/",
         "bookTitle": "#profile_top b",
         "bookAuthor": "#profile_top a[href*='/u/']",
-        "bookCover": "",
+        "bookCover": "#profile_top img",
         "bookDescription": "#profile_top div.xcontrast_txt",
         "chapterListItem": "select#chap_select option",
         "chapterTitle": "",
@@ -47,7 +47,7 @@
         "chapterListItem": "ol.chapter.index.group li",
         "chapterTitle": "ol.chapter.index.group li a",
         "chapterLink": "ol.chapter.index.group li a",
-        "chapterContent": "div#chapters div.chapter"
+        "chapterContent": "div#workskin div.chapter"
       }
     }
   ]
