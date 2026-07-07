@@ -44,10 +44,11 @@
         "bookAuthor": "h3.byline a",
         "bookCover": "",
         "bookDescription": "blockquote.userstuff",
-        "chapterListItem": "ol.chapter.index.group li",
-        "chapterTitle": "ol.chapter.index.group li a",
-        "chapterLink": "ol.chapter.index.group li a",
-        "chapterContent": "div#workskin div.chapter"
+        "chapterListItem": "select#selected_id option",
+        "chapterTitle": "",
+        "chapterLink": "",
+        "chapterContent": "div#workskin div.chapter",
+        "chapterUrlPattern": ""
       }
     }
   ]
