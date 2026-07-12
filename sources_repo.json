@@ -48,7 +48,7 @@
         "chapterTitle": "",
         "chapterLink": "",
         "chapterContent": "div#chapters div.chapter",
-        "chapterUrlPattern": ""
+        "chapterUrlPattern": "/works/{workId}/chapters/{chapterId}/"
       }
     },
     {
@@ -73,7 +73,8 @@
         "chapterTitle": "span.chapter-text",
         "chapterLink": "a",
         "chapterContent": "#chapter-content",
-        "chapterUrlPattern": ""
+        "chapterUrlPattern": "",
+        "chapterListNextPage": "a.next_page"
       }
     },
     {
@@ -123,7 +124,8 @@
         "chapterTitle": "a.chapter_link div div",
         "chapterLink": "a.chapter_link",
         "chapterContent": "div.chapter_content",
-        "chapterUrlPattern": ""
+        "chapterUrlPattern": "",
+        "chapterListNextPage": "a.next_page, a.page-link[rel='next']"
       }
     },
     {
@@ -148,7 +150,8 @@
         "chapterTitle": "",
         "chapterLink": "",
         "chapterContent": "div#chapter-body",
-        "chapterUrlPattern": ""
+        "chapterUrlPattern": "",
+        "chapterListNextPage": "a.next_page, a.page-link[rel='next'], a:contains('Next')"
       }
     },
     {
